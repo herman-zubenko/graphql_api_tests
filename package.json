@@ -1,0 +1,16 @@
+{
+  "name": "api_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tests/example/example.manga.test.js",
+  "scripts": {
+    "start": "mocha tests/**/*.test.js --timeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-got": "0.1.2",
+    "mocha": "8.1.1"
+  }
+}
