@@ -2,7 +2,6 @@
   "name": "api_tests",
   "version": "1.0.0",
   "description": "",
-  "main": "tests/example/example.manga.test.js",
   "scripts": {
     "start": "mocha tests/**/*.test.js --timeout 10000"
   },

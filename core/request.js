@@ -1,5 +1,4 @@
 const graphqlGot = require('graphql-got');
-
 const environment = 'https://graphql.anilist.co'; // TO BE DEFINED FROM DOCKER ENV VARIABLE
 
 class RequestHelper {

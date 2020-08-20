@@ -12,7 +12,7 @@ Mocha is used as a test runner & graphql-got is used for making requests.
 `docker build -t graphql_api_testing .`
 It may take some time to install dependencies.
 3. After build is finished, run 
-`docker run -it graphql_api_testing:latest`
+`docker run -it graphql_api_testing`
 4. Test results will be posted in console.
 
 **BUILD AND RUN USING NODE JS**

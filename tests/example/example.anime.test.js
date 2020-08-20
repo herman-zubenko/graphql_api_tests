@@ -1,7 +1,5 @@
 const assert = require('assert');
-
 const request = require('../../core/request');
-
 const testData = require('./example.testData');
 
 describe('Example query for Anime ', async () => {
