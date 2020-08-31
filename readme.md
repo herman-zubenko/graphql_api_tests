@@ -1,5 +1,11 @@
 **README**
 
+** README IS OUTDATED AFTER ADDING TS **
+
+** RUN 'tsc' AFTER CLONING THE REPO **
+
+** DOCKER FILE ALSO NEEDS TO BE UPDATED **
+
 This is an lightweight example of GraphQL API testing framework. 
 Testing is performed against public API https://graphql.anilist.co,
 which provides access to data regarding Anime and Manga.

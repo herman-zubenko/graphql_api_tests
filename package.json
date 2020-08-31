@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "mocha tests/**/*.test.js --timeout 10000"
+    "start": "mocha dist/**/*.test.js --timeout 10000"
   },
   "keywords": [],
   "author": "",
