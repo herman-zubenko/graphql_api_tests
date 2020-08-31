@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/assert": "^1.5.1",
+    "@types/mocha": "^8.0.3",
+    "assert": "^2.0.0",
     "graphql-got": "0.1.2",
     "mocha": "8.1.1"
   }

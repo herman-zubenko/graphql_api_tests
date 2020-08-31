@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.queryManga = exports.queryAnime = void 0;
-exports.queryAnime = `{
+export const queryAnime = `{
     Media(type: ANIME) {
         id
         title {
@@ -11,7 +8,8 @@ exports.queryAnime = `{
         }
     }
 }`;
-exports.queryManga = `{
+
+export const queryManga = `{
     Media(type: MANGA) {
         id
         title {
