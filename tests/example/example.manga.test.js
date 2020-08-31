@@ -14,8 +14,7 @@ describe('Example query for Manga ', async () => {
             .send({ query: example_testData_1.queryManga })
             .set('Content-Type', 'application/json')
             .set('Accept', 'application/json')
-            .expect(200);
-        console.log(test.body.data.Media);
+            .expect({ data: { Media: { id: 30001, title: { romaji: 'Monster', english: 'Monster', native: 'MONSTER' } } } });
     });
     it('should assert status code', async () => {
         const statusCode = await request_1.getStatusCode(example_testData_1.queryManga);
