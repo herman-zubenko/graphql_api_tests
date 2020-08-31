@@ -3,9 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-// @ts-ignore
 const assert_1 = __importDefault(require("assert"));
-// @ts-ignore
 const request_1 = require("../../core/request");
 const example_testData_1 = require("./example.testData");
 describe('Example query for Anime ', async () => {

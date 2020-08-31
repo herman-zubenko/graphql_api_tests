@@ -1,4 +1,3 @@
-// @ts-ignore
 import graphqlGot from 'graphql-got';
 const environment = 'https://graphql.anilist.co'; // TO BE DEFINED FROM DOCKER ENV VARIABLE
 

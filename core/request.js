@@ -4,7 +4,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getResponseBody = exports.getStatusCode = void 0;
-// @ts-ignore
 const graphql_got_1 = __importDefault(require("graphql-got"));
 const environment = 'https://graphql.anilist.co'; // TO BE DEFINED FROM DOCKER ENV VARIABLE
 async function getStatusCode(query) {

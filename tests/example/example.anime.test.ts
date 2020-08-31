@@ -1,6 +1,4 @@
-// @ts-ignore
 import assert from 'assert';
-// @ts-ignore
 import {getStatusCode, getResponseBody} from '../../core/request';
 import {queryAnime} from './example.testData';
 
